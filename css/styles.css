@@ -1,0 +1,169 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  /* font-family: Georgia, serif; */
+  /* font-family: Georgia,Times,"Times New Roman",serif */
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  /* when we set the width manually and in the parent element the text-align is set to center we need to center the block element(h1) manually using the margin property */
+  /*width:10%;*/
+  /*margin:0 auto;*/ /*up and down for the first one value, left and right for the other one*/
+  color:#66BFBF;
+  font-family: 'Sacramento', cursive;
+  /*100% is equivalent to 16px, also 1em(1M) is 16px*/
+  /* font-size: 562.5%; */
+  font-size: 5.625rem; /*root em, it is addaptable and reliable, not getting affected by parent elements*/
+  /* line-height: 2; */
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color:#66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 30px;
+}
+
+a {
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin:10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+hr {
+  border: dotted;
+  border-width: 8px;
+  border-top: 0;
+  color: #EAF6F6;
+  margin: 100px auto;
+  width: 3%;
+}
+
+p {
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin:100px 0;
+  position: relative;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  /* height:100px;
+  padding:30px; */
+  padding: 50px 0 20px;
+}
+
+.mountains {
+  margin-top:80px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+}
+
+.profile-pic {
+  width:150px;
+  height:150px;
+}
+
+.coding-pic {
+  width:150px;
+  height:142px;
+  /* width:25%; */
+  float:left;
+  margin-right: 30px;
+}
+
+.violin-pic {
+  float:right; /*search for clear as the anti-float property, of course you give let's say the paragraph you want to clear a class and then in the css you add there clear:left*/
+  position: relative;
+  right: 200px;
+  /* position: absolute;
+  right: 700px; */
+}
+
+.job-description {
+  font-weight: normal;
+}
+
+.skill-row {
+  margin: 100px auto;
+  width:50%;
+  text-align: left;
+}
+
+.contact-me {
+  margin-bottom: 70px;
+}
+
+.copyright {
+  /* margin-top: 50px; */
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.intro {
+  margin:auto;
+  width:30%;
+}
+
+.contact-message {
+  width: 30%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
